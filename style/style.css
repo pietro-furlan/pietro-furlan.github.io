@@ -71,7 +71,7 @@ header {
   color: #121619;
 }
 
-/* --------------------------------------------------------- */
+/* --------------------------------------------------------- 
 
 .dropbtn a {
   text-decoration: none;
@@ -93,7 +93,7 @@ a.dropdown-content {
   display: block;
 }
 
-/*.dropdown:hover .dropdown-content, a.testLink:Hover {display: block;}*/
+/*.dropdown:hover .dropdown-content, a.testLink:Hover {display: block;}
 
 .dropdown-content:hover .testLink { display: block;}
 
@@ -101,3 +101,5 @@ a.dropdown-content {
   opacity: 0.8;
   color: #121619; 
 }
+
+*/
