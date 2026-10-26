@@ -83,11 +83,11 @@ header {
   text-align: center;
 }
 
-.dropdown-content {
+.testLink {
   display: none;
 }
 
-.dropdown-content a {
+a.dropdown-content {
   color: #fdede4;
   text-decoration: none;
   display: block;
@@ -96,3 +96,8 @@ header {
 /*.dropdown:hover .dropdown-content, a.testLink:Hover {display: block;}*/
 
 .dropdown-content:hover .testLink { display: block;}
+
+.testLink:hover {
+  opacity: 0.8;
+  color: #121619; 
+}
