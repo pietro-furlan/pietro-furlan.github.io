@@ -70,3 +70,29 @@ header {
   opacity: 0.8;
   color: #121619;
 }
+
+/* --------------------------------------------------------- */
+
+.dropbtn a {
+  text-decoration: none;
+
+  color: #fdede4;
+  text-decoration: none;
+  font-weight: 500;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-content a {
+  color: #fdede4;
+  text-decoration: none;
+  display: block;
+}
+
+/*.dropdown:hover .dropdown-content, a.testLink:Hover {display: block;}*/
+
+.dropdown-content:hover .testLink { display: block;}

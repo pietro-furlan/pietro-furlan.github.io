@@ -13,7 +13,7 @@
                 if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
                     document.getElementById("navbar").style.padding = "30px 10px";
                 } else {
-                    document.getElementById("navbar").style.padding = "100px 10px";
+                    document.getElementById("navbar").style.padding = "90px 10px";
                 }
             }
         </script>
@@ -22,7 +22,8 @@
 
     <body>
         <h1 style="text-align: center;">Petrus Furlan</h1>
-        
+    
+    <!--
         <header>
             <div id="navbar">
                 <a class="nav-link" href="../index.html">Home</a>
@@ -31,6 +32,28 @@
                 <a class="nav-link" href="chiSono.html">Chi sono</a>
             </div>
         </header>
+    -->
+
+        <header id="navbar">
+            <div class="dropbtn">                
+            <a href="../index.html">Home</a>
+
+            <a href="esperienzeLavorative.html">Esperienze lavorative</a>
+            <div class="dropdown-content">
+                <a class="testLink" href="portfolio.html"> Portfolio </a>
+            </div>
+
+            <a href="istruzione.html">Istruzione</a>
+            <a href="chiSono.html">Chi sono</a>
+
+                <div class="dropdown-content">
+                    <a class="testLink" href="contatti.html">Contatti</a>
+                    <a class="testLink" href="portfolio.html"> </a>
+                </div>
+            </div>
+        </header>
+
+
         <br>
         
         <div class="mainPage"></div>
