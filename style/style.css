@@ -55,6 +55,11 @@ main {
   background-color: white;
 }
 
+article{
+  padding: 15px 2cm;
+  background-color: aqua;
+}
+
 
 header {
   --thickness: 4px;
