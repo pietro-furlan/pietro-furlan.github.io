@@ -4,34 +4,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Home - Pietro Furlan</title>
+
         <link rel="stylesheet" href="style/style.css">
+        <script src="script/scriptMain.js"> </script>
 
-        <script>
-            window.onscroll = function() {scrollFunction()};
-
-            function scrollFunction() {
-                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                    document.getElementById("navbar").style.padding = "30px 10px";
-                } else {
-                    document.getElementById("navbar").style.padding = "90px 10px";
-                }
-            }
-        </script>
     </head>
 
     <body>
         <h1 style="text-align: center;">Petrus Furlan</h1>
-        
-        <!-- Barra di Navigazione in "Liquid Glass / Translucent" -->
+    
+        <!-- ----------------------------   IA ASSISTED   ----------------------------- -->
         <header>
             <div id="navbar">
                 <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="pages/esperienzeLavorative.html">Esperienze lavorative</a>
+                
+                <!-- Dropdown per Esperienze lavorative -->
+                <div class="dropdown">
+                    <a class="nav-link dropbtn" href="pages/esperienzeLavorative.html">Esperienze lavorative</a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-submenu">
+                            <a href="pages/portfolio.html">Portfolio &raquo;</a>
+                            <div class="submenu-content">
+                                <a href="pages/portfolio/0-foto.html">Fotografia</a>
+                                <a href="pages/portfolio/1-grafica.html">Grafica</a>
+                                <a href="pages/portfolio/2-progetti.html">Progetti</a>
+                                <a href="pages/portfolio/3-video.html">Video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <a class="nav-link" href="pages/istruzione.html">Istruzione</a>
-                <a class="nav-link" href="pages/chiSono.html">Chi sono</a>
+
+                <!-- Dropdown per Chi sono -->
+                <div class="dropdown">
+                    <a class="nav-link dropbtn" href="pages/chiSono.html">Chi sono</a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-submenu">
+                            <a href="pages/portfolio.html">Portfolio &raquo;</a>
+                            <div class="submenu-content">
+                                <a href="pages/portfolio/0-foto.html">Fotografia</a>
+                                <a href="pages/portfolio/1-grafica.html">Grafica</a>
+                                <a href="pages/portfolio/2-progetti.html">Progetti</a>
+                                <a href="pages/portfolio/3-video.html">Video</a>
+                            </div>
+                        </div>
+                        <a href="pages/contatti.html">Contatti</a>
+                    </div>
+                </div>
             </div>
         </header>
-
+        <!-- ----------------------------   IA ASSISTED - END  ----------------------------- -->
 
         <!-- Inizio pagina principale -->
         <div class="mainPage">
