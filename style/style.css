@@ -52,12 +52,12 @@ main {
   padding-top: 120px;
   margin-left: 2cm;
   margin-right: 2cm;
-  background-color: white;
+  background-color: white; /* di controllo per le dimensioni*/
 }
 
 article{
   padding: 15px 2cm;
-  background-color: aqua;
+  background-color: aqua;  /* di controllo per le dimensioni*/
 }
 
 
